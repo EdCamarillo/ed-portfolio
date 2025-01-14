@@ -11,7 +11,9 @@ const App = () => {
       <div className="flex h-screen">
         <Navbar/>
 
-        <div className="flex-1 overflow-auto">
+        <div 
+          className="flex-1 overflow-hidden"
+        >
             <Routes>
               <Route path="/hero" element={<Hero />} />
               <Route path="/about" element={<About />} />
