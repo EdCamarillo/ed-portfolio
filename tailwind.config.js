@@ -14,6 +14,14 @@ export default {
       animation: {
         slideUp: 'slideUp 0.6s cubic-bezier(0.2,0.6,0.2,1)',
       },
+      colors: {
+        primary: '#56C596',
+        secondary: '#7CD6B0',
+        textMain: '#333333',
+        textLight: '#666666',
+        background: '#FFFFFF',
+        accent: '#FF5733',
+      },
     },
   },
   plugins: [],

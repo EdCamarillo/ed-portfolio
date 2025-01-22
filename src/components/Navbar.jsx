@@ -3,7 +3,7 @@ import { FaHome, FaUser, FaFolderOpen, FaEnvelope } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#F29868] w-28 flex flex-col items-center justify-center">
+    <nav className="bg-[#56C596] w-28 flex flex-col items-center justify-center">
       <ul className="space-y-4 text-center">
         <li>
           <NavLink
@@ -11,7 +11,7 @@ const Navbar = () => {
             title="Hero"
             className={({ isActive }) =>
               `block p-5 rounded-lg text-white text-2xl transition duration-300 ease-in-out ${
-                isActive ? "bg-[#F2B696] hover:scale-125" : "hover:bg-[#F2B696] hover:scale-125"
+                isActive ? "bg-[#7CD6B0] hover:scale-125" : "hover:bg-[#7CD6B0] hover:scale-125"
               }`
             }
           >
@@ -24,7 +24,7 @@ const Navbar = () => {
             title="About"
             className={({ isActive }) =>
               `block p-5 rounded-lg text-white text-2xl transition duration-300 ease-in-out ${
-                isActive ? "bg-[#F2B696] hover:scale-125" : "hover:bg-[#F2B696] hover:scale-125"
+                isActive ? "bg-[#7CD6B0] hover:scale-125" : "hover:bg-[#7CD6B0] hover:scale-125"
               }`
             }
           >
@@ -37,7 +37,7 @@ const Navbar = () => {
             title="Projects"
             className={({ isActive }) =>
               `block p-5 rounded-lg text-white text-2xl transition duration-300 ease-in-out ${
-                isActive ? "bg-[#F2B696] hover:scale-125" : "hover:bg-[#F2B696] hover:scale-125"
+                isActive ? "bg-[#7CD6B0] hover:scale-125" : "hover:bg-[#7CD6B0] hover:scale-125"
               }`
             }
           >
@@ -50,7 +50,7 @@ const Navbar = () => {
             title="Contact"
             className={({ isActive }) =>
               `block p-5 rounded-lg text-white text-2xl transition duration-300 ease-in-out ${
-                isActive ? "bg-[#F2B696] hover:scale-125" : "hover:bg-[#F2B696] hover:scale-125"
+                isActive ? "bg-[#7CD6B0] hover:scale-125" : "hover:bg-[#7CD6B0] hover:scale-125"
               }`
             }
           >
