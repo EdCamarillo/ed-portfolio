@@ -22,8 +22,8 @@ const Hero = () => {
             <span className="text-primary">Edward</span> John Camarillo
           </h1>
           <p className="mt-7 text-lg text-gray-600">
-            I am a passionate <span className="text-primary font-semibold">Frontend Developer</span> with an ability for creating
-            visually appealing and user-friendly web applications. Let&apos;s build
+            I am a passionate <span className="text-primary font-semibold">Software Developer</span> with an ability to build efficient
+            and user-friendly applications. Let&apos;s build
             something amazing together!
           </p>
 
@@ -46,7 +46,6 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-800 text-2xl transition duration-300"
-                title="GitHub"
               >
                 <FaGithub />
               </a>
@@ -55,7 +54,6 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-800 text-2xl transition duration-300"
-                title="LinkedIn"
               >
                 <FaLinkedin />
               </a>
@@ -64,7 +62,6 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-800 text-2xl transition duration-300"
-                title="Facebook"
               >
                 <FaFacebook />
               </a>
