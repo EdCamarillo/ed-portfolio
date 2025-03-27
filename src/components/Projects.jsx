@@ -2,32 +2,32 @@ const projects = [
   {
     title: "Task Tracker App",
     description: "Django Framework",
-    thumbnail: "/thumbnails/tasktracking_thumbnail.jpg",
-    preview: "/previews/tasktracking_preview.mp4",
+    thumbnail: "src/assets/thumbnails/tasktracking_thumbnail.jpg",
+    preview: "src/assets/previews/tasktracking_preview.mp4",
   },
   {
     title: "LessonLab",
     description: "OpenAI, Flutter, Rust",
-    thumbnail: "/thumbnails/lessonlab_thumbnail.jpg",
-    preview: "/previews/lessonlab_preview.mp4",
+    thumbnail: "src/assets/thumbnails/lessonlab_thumbnail.jpg",
+    preview: "src/assets/previews/lessonlab_preview.mp4",
   },
   {
     title: "Vstore",
     description: "Android Studio, Firebase",
-    thumbnail: "/thumbnails/vstore_thumbnail.jpg",
-    preview: "/previews/vstore_preview.mp4",
+    thumbnail: "src/assets/thumbnails/vstore_thumbnail.jpg",
+    preview: "src/assets/previews/vstore_preview.mp4",
   },
   {
     title: "Mathic-matic",
     description: "React, Spring Boot, WebSocket",
-    thumbnail: "/thumbnails/mathicmatic_thumbnail.jpg",
-    preview: "/previews/mathicmatic_preview.mp4",
+    thumbnail: "asrc/ssets/thumbnails/mathicmatic_thumbnail.jpg",
+    preview: "src/assets/previews/mathicmatic_preview.mp4",
   },
   {
     title: "Hypertext",
     description: "React, Tailwind CSS, OpenAI",
-    thumbnail: "/thumbnails/hypertext_thumbnail.jpg",
-    preview: "/previews/hypertext_preview.mp4",
+    thumbnail: "src/assets/thumbnails/hypertext_thumbnail.jpg",
+    preview: "src/assets/previews/hypertext_preview.mp4",
   },
 ];
 

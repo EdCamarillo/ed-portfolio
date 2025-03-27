@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/ed-portfolio">
       <div className="flex h-screen">
         <Navbar/>
 
