@@ -7,7 +7,7 @@ const Navbar = () => {
       <ul className="space-y-4 text-center">
         <li className="relative group">
           <NavLink
-            to="hero"
+            to="/"
             className={({ isActive }) =>
               `block p-5 rounded-lg text-white text-2xl transition duration-300 ease-in-out ${
                 isActive ? "bg-[#7CD6B0] hover:scale-125" : "hover:bg-[#7CD6B0] hover:scale-125"

@@ -1,13 +1,13 @@
 import { FaGithub, FaLinkedin, FaFacebook, FaDownload } from "react-icons/fa";
 import profpic from '../assets/profpic.png';
-import resume from '../assets/Camarillo_Resume.pdf';
+import resume from '../assets/Edward_John_Camarillo.pdf';
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center bg-gray-50 p-8 animate-slideUp" id="hero">
+    <section className="min-h-screen flex items-center p-8 animate-slideUp" id="hero">
       <div className="flex flex-col md:flex-row items-center w-full max-w-5xl mx-auto">
         {/* Profile Picture */}
-        <div className="w-50 h-50 rounded-full overflow-hidden shadow-2xl shadow-primary/50 hover:shadow-primary/100 group transition-all duration-500 hover:scale-95">
+        <div className="w-50 h-50 rounded-full overflow-hidden shadow-2xl shadow-primary/50 hover:shadow-primary/100 group transition-all duration-500 hover:scale-95 animate-slideRight3">
           <img
             src={profpic}
             alt="Profile"

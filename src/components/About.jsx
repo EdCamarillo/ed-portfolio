@@ -7,7 +7,7 @@ const About = () => {
       <div className="flex-1 flex flex-col items-center justify-center space-y-16 p-8">
 
         {/* Designer */}
-        <div className="flex items-center space-x-5">
+        <div className="flex items-center space-x-5 animate-slideRight1">
           <div className="bg-primary w-16 h-16 flex items-center justify-center rounded-full text-white text-2xl shrink-0">
             <FaPencilRuler />
           </div>
@@ -20,7 +20,7 @@ const About = () => {
         </div>
 
         {/* Developer */}
-        <div className="flex items-center space-x-5">
+        <div className="flex items-center space-x-5 animate-slideRight2">
           <div className="bg-primary w-16 h-16 flex items-center justify-center rounded-full text-white text-2xl shrink-0">
             <FaCode />
           </div>
@@ -33,7 +33,7 @@ const About = () => {
         </div>
 
         {/* Artist */}
-        <div className="flex items-center space-x-5">
+        <div className="flex items-center space-x-5 animate-slideRight3">
           <div className="bg-primary w-16 h-16 flex items-center justify-center rounded-full text-white text-2xl shrink-0">
             <FaPalette />
           </div>
@@ -60,7 +60,9 @@ const About = () => {
             <li>C++</li>
             <li>Python</li>
             <li>Dart</li>
-            <li>HTML, CSS</li>
+            <li>PHP</li>
+            <li>HTML</li>
+            <li>CSS</li>
           </ul>
         </div>
 
