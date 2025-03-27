@@ -7,10 +7,10 @@ export default defineConfig({
   plugins: [
     react()
   ],
+  base: "/ed-portfolio/",
   css: {
     postcss: {
       plugins: [tailwindcss()],
-      base: "/ed-portfolio/",
     },
   },
 })
