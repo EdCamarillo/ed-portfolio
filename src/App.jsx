@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects from "./components/Projects";
@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <Router basename="/ed-portfolio">
+    <Router>
       <div className="flex h-screen">
         <Navbar/>
 
