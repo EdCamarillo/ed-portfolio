@@ -10,6 +10,7 @@ export default defineConfig({
   css: {
     postcss: {
       plugins: [tailwindcss()],
+      base: "/ed-portfolio/",
     },
   },
 })
