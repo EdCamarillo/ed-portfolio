@@ -1,33 +1,44 @@
+import tasktracking_thumbnail from '../assets/thumbnails/tasktracking_thumbnail.jpg';
+import lessonlab_thumbnail from '../assets/thumbnails/lessonlab_thumbnail.jpg';
+import vstore_thumbnail from '../assets/thumbnails/vstore_thumbnail.jpg';
+import mathicmatic_thumbnail from '../assets/thumbnails/mathicmatic_thumbnail.jpg';
+import hypertext_thumbnail from '../assets/thumbnails/hypertext_thumbnail.jpg';
+import tasktracking_preview from '../assets/previews/tasktracking_preview.mp4';
+import lessonlab_preview from '../assets/previews/lessonlab_preview.mp4';
+import vstore_preview from '../assets/previews/vstore_preview.mp4';
+import mathicmatic_preview from '../assets/previews/mathicmatic_preview.mp4';
+import hypertext_preview from '../assets/previews/hypertext_preview.mp4';
+
 const projects = [
   {
     title: "Task Tracker App",
     description: "Django Framework",
-    thumbnail: "src/assets/thumbnails/tasktracking_thumbnail.jpg",
-    preview: "src/assets/previews/tasktracking_preview.mp4",
+    thumbnail: tasktracking_thumbnail,
+    preview: tasktracking_preview,
   },
   {
     title: "LessonLab",
     description: "OpenAI, Flutter, Rust",
-    thumbnail: "src/assets/thumbnails/lessonlab_thumbnail.jpg",
-    preview: "src/assets/previews/lessonlab_preview.mp4",
+    thumbnail: lessonlab_thumbnail,
+    preview: lessonlab_preview,
   },
   {
     title: "Vstore",
     description: "Android Studio, Firebase",
-    thumbnail: "src/assets/thumbnails/vstore_thumbnail.jpg",
-    preview: "src/assets/previews/vstore_preview.mp4",
+    thumbnail: vstore_thumbnail,
+    preview: vstore_preview,
   },
   {
     title: "Mathic-matic",
     description: "React, Spring Boot, WebSocket",
-    thumbnail: "asrc/ssets/thumbnails/mathicmatic_thumbnail.jpg",
-    preview: "src/assets/previews/mathicmatic_preview.mp4",
+    thumbnail: mathicmatic_thumbnail,
+    preview: mathicmatic_preview,
   },
   {
     title: "Hypertext",
     description: "React, Tailwind CSS, OpenAI",
-    thumbnail: "src/assets/thumbnails/hypertext_thumbnail.jpg",
-    preview: "src/assets/previews/hypertext_preview.mp4",
+    thumbnail: hypertext_thumbnail,
+    preview: hypertext_preview,
   },
 ];
 
