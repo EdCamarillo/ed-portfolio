@@ -50,7 +50,7 @@ const Hero = () => {
                 <FaGithub />
               </a>
               <a
-                href="https://www.linkedin.com/in/edward-john-camarillo-4b01862b6/"
+                href="https://www.linkedin.com/in/edward-john-camarillo-198471358/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-800 text-2xl transition duration-300"
